@@ -19,3 +19,14 @@ CREATE TABLE `partner_list` (
   `partnerstatus` varchar(100)  COMMENT '合作方状态(1,有效2，失效)',
   PRIMARY KEY (`partnerid`)
 ) ;
+
+
+
+
+-- invmanage.product_list definition
+
+CREATE TABLE `product_list` (
+  `productid` bigint NOT NULL AUTO_INCREMENT,
+  `productname` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`productid`)
+);
